@@ -4,7 +4,7 @@ FocusMonitor adalah aplikasi berbasis web full-stack yang dirancang untuk memban
 
 ## 🔗 Tautan Penting
 - **Source Code (GitHub):** [https://github.com/AnnoFah/DP-7]
-- **Live Demo / Publish Web:** [shiny-clafoutis-d1eca6.netlify.app]
+- **Live Demo / Publish Web:** [https://shiny-clafoutis-d1eca6.netlify.app/]
 
 ---
 
