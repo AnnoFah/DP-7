@@ -8,7 +8,12 @@ const app = express();
 // Middleware
 app.use(helmet());
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000'],
+  // TAMBAHKAN URL NETLIFY KAMU DI SINI
+  origin: [
+    'http://localhost:5173', 
+    'http://localhost:3000',
+    'https://dp-7-production.up.railway.app' 
+  ],
   credentials: true
 }));
 app.use(express.json());
