@@ -8,11 +8,10 @@ const app = express();
 // Middleware
 app.use(helmet());
 app.use(cors({
-  // TAMBAHKAN URL NETLIFY KAMU DI SINI
   origin: [
     'http://localhost:5173', 
     'http://localhost:3000',
-    'https://dp-7-production.up.railway.app' 
+    'https://shiny-clafoutis-d1eca6.netlify.app' 
   ],
   credentials: true
 }));
